@@ -1,0 +1,9 @@
+This is a module that will check to see if a string is a palindrome.
+
+$ npm install --global lrosdahl-palindrome
+$ vim test.js
+let Phrase = require("lrosdahl-palindrome");
+let napoleonsLament = new Phrase("Able was I, ere I saw Elba.");
+console.log(napoleonsLament.palindrome());
+$ node test.js
+true

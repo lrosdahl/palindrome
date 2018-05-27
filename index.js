@@ -1,5 +1,7 @@
 // Function to find if a word or phrase is a palindrome
 
+module.exports = Phrase;
+
 // Adds the reverses-a-string function to the String object
 String.prototype.reverse = function () {
 		return Array.from(this).reverse().join("");
